@@ -59,6 +59,21 @@ print("You live in " + city + ".")
 '''
 # variables 
 
-name = input("what is your name?")
-print("Hello " + name + "!")
+# name = input("what is your name?")
+# print("Hello " + name + "!")
+
+# print(len(input("write something?")))
+
+'''
+name = input("what is your name?\n")
+length = len(name)
+print(length)
+'''
+
+# rules of variable naming
+# 1. variable names must start with a letter or underscore (_)
+# 2. variable names can only contain letters, numbers, and underscores
+# 3. variable names are case-sensitive
+# 4. variable names cannot be a reserved keyword in Python 
+
 
